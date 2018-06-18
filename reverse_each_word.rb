@@ -3,6 +3,7 @@ def reverse_each_word(my_statement)
   new_variable = []
    my_statement.split.each do |string|
     new_variable <<  string.reverse
+    new
   end
-  binding.pry
+  new_variable.join(" ")
 end
