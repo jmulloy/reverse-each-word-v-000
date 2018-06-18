@@ -1,5 +1,7 @@
-def reverse_each_word(p = ["Hello there, and how are you?"])
-  return reverse_each_word.each do |p|
-    puts p.reverse
+require "pry"
+def reverse_each_word(my_statement)
+  binding.pry 
+   p.each do |p|
+    my_statements
   end
 end
