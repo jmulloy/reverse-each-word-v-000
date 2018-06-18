@@ -1,7 +1,8 @@
 require "pry"
 def reverse_each_word(my_statement)
-  binding.pry 
-   p.each do |p|
+   
+   my_statement.split.each do |string|
+     binding.pry
     my_statements
   end
 end
